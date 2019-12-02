@@ -8,9 +8,11 @@ import java.math.BigDecimal;
  */
 @Data
 public class Product {
-    private int pId;
-    private String pName;
-    private String pType;
-    private String parameter;
-    private BigDecimal pSalary;
+    private int pId;//编号
+    private String pName;//名字
+    private String pDesc;//介绍
+    private String pImage;//图片
+    private int pTid;//类型
+    private BigDecimal pSalary;//价格
+    private int pCount;//数量
 }
