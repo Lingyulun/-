@@ -2,6 +2,10 @@ package com.entity;
 
 import java.util.Date;
 
+/**
+ * @author 挥霍的人生
+ * 员工表
+ */
 public class Employee {
    private int eId;//员工编号
    private String eName;    //姓名
