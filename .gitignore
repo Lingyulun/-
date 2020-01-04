@@ -235,3 +235,133 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
+dao/src/
+entity/src/main/java/com/entity/Employee.java
+entity/src/main/java/com/entity/Menu.java
+entity/src/main/java/com/entity/ProductCategoryVo.java
+entity/src/main/java/com/entity/ProductType.java
+entity/src/main/java/com/entity/RoleEntity.java
+entity/src/main/java/com/entity/User.java
+entity/src/main/java/com/entity/vo/
+entity/src/main/resources/
+entity/src/test/
+service/src/main/java/com/service/EmployeeService.java
+service/src/main/java/com/service/Impl/EmployeeServiceImpl.java
+service/src/main/java/com/service/Impl/LoginServiceImpl.java
+service/src/main/java/com/service/Impl/MenuServiceImpl.java
+service/src/main/java/com/service/Impl/PrivilegeServiceImpl.java
+service/src/main/java/com/service/Impl/ProductTypeServiceImpl.java
+service/src/main/java/com/service/Impl/UserInfoServiceImpl.java
+service/src/main/java/com/service/LoginService.java
+service/src/main/java/com/service/MenuService.java
+service/src/main/java/com/service/PrivilegeService.java
+service/src/main/java/com/service/ProductService.java
+service/src/main/java/com/service/ProductTypeService.java
+service/src/main/java/com/service/RoleService.java
+service/src/main/java/com/service/UserInfoService.java
+service/src/main/java/com/service/UserSerivce.java
+service/src/main/resources/
+service/src/test/
+web/src/
+web/web/ShowImage.html
+web/web/Test/
+web/web/TimeManage/TimeManage.html
+web/web/TimeManage/css/
+web/web/TimeManage/img/glyphicons-halflings.png
+web/web/TimeManage/js/
+web/web/WEB-INF/view/404.jsp
+web/web/WEB-INF/view/500.jsp
+web/web/WEB-INF/view/Employee/insert.jsp
+web/web/WEB-INF/view/Employee/list.jsp
+web/web/WEB-INF/view/ProductShow/
+web/web/WEB-INF/view/ProductType/
+web/web/WEB-INF/view/Role/
+web/web/WEB-INF/view/background/
+web/web/WEB-INF/view/backgroundRegister.jsp
+web/web/WEB-INF/view/backstage/
+web/web/WEB-INF/view/before/
+web/web/WEB-INF/view/beforeIndex.jsp
+web/web/WEB-INF/view/error.jsp
+web/web/WEB-INF/view/login.jsp
+web/web/WEB-INF/view/product/
+web/web/WEB-INF/view/register.jsp
+web/web/WEB-INF/view/success.jsp
+web/web/WEB-INF/view/test2.html
+web/web/WEB-INF/view/upload/
+web/web/WEB-INF/view/user/
+web/web/WEB-INF/view/userInfo/
+web/web/WEB-INF/view/viewCart/
+web/web/WEB-INF/web.xml
+web/web/productshow/
+web/web/shop/
+web/web/testcolor.html
+### JetBrains template
+# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio and WebStorm
+# Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
+
+# User-specific stuff
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf
+
+# Generated files
+.idea/**/contentModel.xml
+
+# Sensitive or high-churn files
+.idea/**/dataSources/
+.idea/**/dataSources.ids
+.idea/**/dataSources.local.xml
+.idea/**/sqlDataSources.xml
+.idea/**/dynamic.xml
+.idea/**/uiDesigner.xml
+.idea/**/dbnavigator.xml
+
+# Gradle
+.idea/**/gradle.xml
+.idea/**/libraries
+
+# Gradle and Maven with auto-import
+# When using Gradle or Maven with auto-import, you should exclude module files,
+# since they will be recreated, and may cause churn.  Uncomment if using
+# auto-import.
+# .idea/modules.xml
+# .idea/*.iml
+# .idea/modules
+# *.iml
+# *.ipr
+
+# CMake
+cmake-build-*/
+
+# Mongo Explorer plugin
+.idea/**/mongoSettings.xml
+
+# File-based project format
+*.iws
+
+# IntelliJ
+out/
+
+# mpeltonen/sbt-idea plugin
+.idea_modules/
+
+# JIRA plugin
+atlassian-ide-plugin.xml
+
+# Cursive Clojure plugin
+.idea/replstate.xml
+
+# Crashlytics plugin (for Android Studio and IntelliJ)
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
+
+# Editor-based Rest Client
+.idea/httpRequests
+
+# Android studio 3.1+ serialized cache file
+.idea/caches/build_file_checksums.ser
+
