@@ -6,11 +6,19 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="service" />
+        <module name="dao" />
         <module name="web" />
         <module name="entity" />
-        <module name="dao" />
+        <module name="service" />
       </profile>
     </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="dao" options="" />
+      <module name="entity" options="" />
+      <module name="service" options="" />
+      <module name="web" options="-verbose -bootclasspath &quot;C:/Program Files/Java/jdk1.8.0_31/jre/lib/rt.jar;C:/Program Files/Java/jdk1.8.0_31/jre/lib/jce.jar&quot;" />
+    </option>
   </component>
 </project>

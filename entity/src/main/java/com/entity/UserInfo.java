@@ -7,9 +7,10 @@ import lombok.Data;
  */
 @Data
 public class UserInfo {
-    private int uId;
-    private String Username;
-    private String Uage;
-    private int Uaddress;
-    private String Usex;
+    private int uid;
+    private String username;
+    private String uage;
+    private String uphone;
+    private String uaddress;
+    private String usex;
 }

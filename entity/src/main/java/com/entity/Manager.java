@@ -8,12 +8,10 @@ import lombok.Data;
  */
 @Data
 public class Manager {
-  private int MId;// 编号
-  private String Mname;//姓名
-  private String  Mphone;//电话
-  private String Maddress;//地址
-  private String Menabled;//权限
-  private String Musername;//用户名
-  private String  Mpasseord;//密码
-  private String  Mremark;//备注
+  private int mId;// 编号
+  private String mName;//姓名
+  private String  mPhone;//电话
+  private String mUsername;//用户名
+  private String  mPassword;//密码
+  private String  mState;//备注
 }
